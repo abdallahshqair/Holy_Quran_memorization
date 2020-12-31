@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdfe0455-54a3-46d4-92c3-0ad196ef69c7" name="Default Changelist" comment="api student">
-      <change beforePath="$PROJECT_DIR$/.idea/Holy_Quran_memorization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Holy_Quran_memorization.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="bdfe0455-54a3-46d4-92c3-0ad196ef69c7" name="Default Changelist" comment="Authorization by Passport lgoin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +193,7 @@
       <workItem from="1609010869134" duration="11617000" />
       <workItem from="1609062332477" duration="11592000" />
       <workItem from="1609101829302" duration="4422000" />
-      <workItem from="1609229983063" duration="28930000" />
+      <workItem from="1609229983063" duration="29574000" />
     </task>
     <task id="LOCAL-00001" summary="api student">
       <created>1609357002412</created>
@@ -212,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609357002412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Authorization by Passport lgoin">
+      <created>1609360410297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609360410297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api student" />
-    <option name="LAST_COMMIT_MESSAGE" value="api student" />
+    <MESSAGE value="Authorization by Passport lgoin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authorization by Passport lgoin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
