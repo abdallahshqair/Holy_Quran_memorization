@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('dashboard')->middleware('auth')->group(function (){
     Route::resource('students','App\Http\Controllers\ControlPanel\StudentController');
     Route::resource('teachers','App\Http\Controllers\ControlPanel\TeacherController');
+    Route::resource('posts'   ,   'App\Http\Controllers\ControlPanel\PostController');
 
 });
 
@@ -25,4 +26,6 @@ Route::get('logout','App\Http\Controllers\ControlPanel\AuthController@logout')->
 Route::post('authenticate','App\Http\Controllers\ControlPanel\AuthController@authenticate')->name('authenticate');
 Route::post('registered','App\Http\Controllers\ControlPanel\AuthController@registered')->name('registered');
 Route::get('home',function(){return view('control panel/dashboard');})->name('home');
+
+Route::get('/','App\Http\Controllers\PublicWebsite\PublicWebsitePostController@index');
 

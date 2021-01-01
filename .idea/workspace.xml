@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdfe0455-54a3-46d4-92c3-0ad196ef69c7" name="Default Changelist" comment="Authorization by Passport lgoin" />
+    <list default="true" id="bdfe0455-54a3-46d4-92c3-0ad196ef69c7" name="Default Changelist" comment="Authorization by Passport lgoin">
+      <change afterPath="$PROJECT_DIR$/resources/views/control panel/posts/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/control panel/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/control panel/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/public website/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/public website/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/public website/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/public website/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/public website/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControlPanel/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControlPanel/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/control panel/layouts/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/control panel/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/control panel/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/control panel/posts/k.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +169,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/control panel/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/control panel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,10 +181,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Holy_Quran_memorization\resources\views\control panel" />
+      <recent name="C:\wamp64\www\Holy_Quran_memorization\resources\views\public website" />
       <recent name="C:\wamp64\www\Holy_Quran_memorization\resources\views\control panel\auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Holy_Quran_memorization\app\Http\Controllers\public website" />
       <recent name="C:\wamp64\www\Holy_Quran_memorization\app\Http\Controllers\ControlPanel" />
+      <recent name="C:\wamp64\www\Holy_Quran_memorization\resources\views\control panel" />
+      <recent name="C:\wamp64\www\Holy_Quran_memorization\resources\views\public website" />
       <recent name="C:\wamp64\www\Holy_Quran_memorization\app\Http\Controllers" />
     </key>
   </component>
@@ -194,6 +215,9 @@
       <workItem from="1609062332477" duration="11592000" />
       <workItem from="1609101829302" duration="4422000" />
       <workItem from="1609229983063" duration="29574000" />
+      <workItem from="1609405058084" duration="8521000" />
+      <workItem from="1609445702995" duration="4976000" />
+      <workItem from="1609520035515" duration="12106000" />
     </task>
     <task id="LOCAL-00001" summary="api student">
       <created>1609357002412</created>
@@ -209,11 +233,37 @@
       <option name="project" value="LOCAL" />
       <updated>1609360410297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Authorization by Passport lgoin">
+      <created>1609405123099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609405123100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Authorization by Passport lgoin">
+      <created>1609405156650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609405156650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api student" />
@@ -245,8 +295,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/control panel/layouts/menu.blade.php</url>
-          <line>150</line>
+          <line>120</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/API/AuthController.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/public website/index.blade.php</url>
+          <line>495</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/public website/index.blade.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/control panel/posts/index.blade.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ControlPanel/AuthController.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/public website/index.blade.php</url>
+          <line>511</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

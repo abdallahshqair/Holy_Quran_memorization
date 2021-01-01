@@ -21,9 +21,9 @@ class AuthController extends Controller
             ];
         if(Auth::attempt($login_request)){
 
-            return redirect()->route('home');
+            return view('control panel.dashboard');
         }
-//        return redirect()->back()->with('error','خطأ في اسم المستخدم أو كلمة المرور');
+        return redirect()->back()->with('error','خطأ في اسم المستخدم أو كلمة المرور');
 
     }
 
